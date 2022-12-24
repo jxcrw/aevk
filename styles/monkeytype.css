@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           monkeytype.com - 12/24/2022, 2:09:10 AM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("monkeytype.com") {
+    /* Insert code here... */
+    .logo {
+        display: none!important;
+    }
+
+    .fa-redo-alt:before {
+    display: none!important;
+}
+}

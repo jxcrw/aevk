@@ -1,0 +1,7 @@
+$primary-color: #272822;
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+$secondary-color: #f8f8f2;
+
+@import '~materialize-css/sass/materialize';
+@import 'styles-steno';

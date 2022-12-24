@@ -1,0 +1,372 @@
+/* Based on https://userstyles.org/styles/145865/typeracer-modern-v3 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html {
+    min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: 0;
+  color: #292b2c;
+  font-family: Roboto, Arial, san-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
+
+h1, h2, h3,
+.gameView .gameStatusLabel,
+.textInfoView .textInfoHeader,
+.textInfoView .textInfoOwnStats,
+.textInfoView .textInfoTitle a,
+.textInfoView .textInfoOwnStatsNumber,
+.tblOwnStatsNumber .datetime,
+.tblOwnStatsNumber,
+.textInfoView .tblOwnStats { 
+    color: #292b2c !important;
+}
+
+/* Navigation */
+.navigation a {
+  font-family: Roboto, Arial, san-serif;
+}
+
+.gwt-MenuBar { 
+  background-color: #EEE;
+}
+
+.gwt-MenuItem-selected { 
+  background-color: #CCC;
+}
+
+.themeHeader,
+.mainUserHeader {
+  background: 0;
+  background-color: #292b2c;
+}
+
+.themeHeader a {
+  color: #FFF;
+}
+
+.themeHeader a:hover,
+.themeHeader a:focus {
+  color: #EEE !important;
+}
+
+.themeHeader .title {
+  padding: 25px;
+}
+
+.themeHeader .title h1 a {
+  text-transform: uppercase;
+  font-family: 'Roboto', Arial, san-serif;
+}
+
+.themeHeader .navigation {
+  padding: 22px 20px;
+  height: 0;
+}
+
+.themeHeader #tstats {
+  padding-top: 10px;
+}
+
+.themeHeader #tstats .mainUserInfoBox tbody tr td {
+  color: #EEE;
+}
+
+.subTitle {
+  display: none;
+}
+
+.mainMenuItem a {
+  font-family: Roboto, Arial, san-serif;
+  font-size: 20px;
+}
+
+.mainMenuItem-highlighted a {
+  font-weight: normal;
+}
+
+.mainMenuItem-highlighted .ImageButton,
+.mainMenuItem .ImageButton {
+  display: none;
+}
+
+/* Player Info */
+.playerInfoPopup {
+  background: #292b2c;
+  color: #FFF;
+  border-color: #222;
+}
+
+.playerInfoPopup a {
+  color: #EEE;
+}
+
+.playerInfoPopup a:hover,
+.playerInfoPopup a:focus {
+  color: #FFF;
+}
+
+/* Content */
+.main,
+.themeContent {
+    background: 0;
+    background-color: #FFF;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.mainViewportHolder,
+.mainViewport {
+    width: 800px;
+}
+
+.nonHideableWords, .inputPanel span {
+  letter-spacing: 0.25px;
+  word-spacing: 2px;
+  line-height: 28px;
+  font-size: 20px !important;
+  text-decoration: none;
+  font-family: Lora, 'Roboto Mono', Consolas, monospace;
+}
+
+/*.inputPanel span:nth-of-type(1) {
+    color: #5fa7e8 !important;
+}*/
+
+.inputPanel {
+  margin-top: 150px !important;
+}
+
+[id^='nhwMiddlegwt-uid-'], [id^='nhwMiddleCommagwt-uid-'] {
+  color: #f50057 !important;
+}
+
+.acceptedChars {
+  color: #aeea00 !important;
+}
+
+.friendsTable td {
+    padding-top: 2px;
+}
+
+.friendsTable .headerRow {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-style: normal !important;
+}
+
+.friendsTable tr:hover,
+.friendsTable tr:focus {
+    background-color: #E9E9E9;
+}
+
+.friendsTable .headerRow:hover,
+.friendsTable .headerRow:focus {
+    background-color: #F9F9F9;
+}
+
+.friendsTable > tbody > tr > td:nth-of-type(1) {
+    width: 80px !important;
+}
+
+.gwt-TabBar .gwt-TabBarItem {
+    color: #333;
+}
+
+.popupContent {
+    background: #EEE;
+    color: #292b2c;
+}
+
+.PopupWithIcon {
+    background-color: #292b2c;
+    border-color: #292b2c;
+}
+
+.trPopupDialog .xButton {
+    background-color: #292b2c;
+}
+
+.trPopupDialog {
+    box-shadow: 1px 2px 7px #333;
+}
+
+.fullTextStr {
+    color: #292b2c !important;
+    background-color: #FFF !important;
+}
+
+/* Ted Race Animations */
+.scoreboard .row .progressBar {
+    border: none;
+    margin: 0;
+    margin-left: 0;
+    margin-right: -400px;
+    height: 4px;
+    border-radius: 1px;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+    background-clip: content-box, padding-box;
+    position: relative;
+}
+
+.scoreboard tr:nth-child(5n+1) .row .progressBar {
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, #aeea00 0%, #aeea00  100%);
+}
+
+.scoreboard tr:nth-child(5n+2) .row .progressBar {
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, #00bcd4 0%, #00bcd4 100%);
+}
+
+.scoreboard tr:nth-child(5n+3) .row .progressBar {
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, #9c27b0 0%, #9c27b0 100%);
+}
+
+.scoreboard tr:nth-child(5n+4) .row .progressBar {
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, #f50057 0%, #f50057 100%);
+}
+
+.scoreboard tr:nth-child(5n+5) .row .progressBar {
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, #ff9800 0%, #ff9800 100%);
+}
+
+.scoreboard tr:nth-child(5n+6) .row .progressBar {
+  background-image: linear-gradient(to bottom, white 0%, white 100%), linear-gradient(to bottom, #fdd835 0%, #fdd835 100%);
+}
+
+.avatar {
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+.scoreboard .row .progressBar .avatar .nameContainer {
+    width: 400px;
+    text-align: left;
+}
+
+ .nameContainer + img {
+    display: none;
+}
+
+.lblName {
+    white-space: normal !important;
+    display: inline;
+}
+
+.scoreboard .row .rankPanel {
+    z-index: 1;
+}
+
+.scoreboard > tbody > tr > td > table > tbody > tr > td {
+    overflow: hidden;
+}
+
+.scoreboard .row .rankPanel .rankPanelWpm-self {
+    font-size: 120%;
+}
+
+.mainViewport .room .gameView {
+    transition: all 2s linear;
+}
+
+input:focus {
+    outline: none;
+}
+
+.gameStatusLabel, .arrowPopupText {
+  color: #a6e22e !important;
+  opacity: 1;
+  transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -webkit-transition: opacity .4s ease-in-out;
+}
+
+.gameStatusLabel-flashOn, .arrowPopupText-flashOn {
+    opacity: 0.66;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
+}
+
+.txtInput {
+  background: none !important;
+  border: none !important;
+  border-bottom: 2px solid #292b2c !important;
+  transition: all 0.2s ease;
+  font-family: Lora, 'Roboto Mono', Consolas, monospace !important;
+  font-size: 20px !important;
+}
+
+.txtInput-error {
+  background: none !important;
+  border-bottom: 2px solid #f50057 !important;
+  transition: all 0.2s ease;
+}
+
+[style="text-decoration: underline; color: rgb(153, 204, 0);"], [style="color: rgb(153, 204, 0);"] {
+  color: #aeea00 !important;
+  text-decoration: none !important;
+}
+
+/* Footer */
+.footer {
+    background: 0;
+    background-color: #292b2c;
+    color: #EEE;
+}
+
+.chrome_l,
+.chrome_m,
+.chrome_r,
+.chrome_t,
+.chrome_tr,
+.chrome_tl,
+.chrome_b,
+.chrome_bl,
+.chrome_br {
+    background: 0;
+}
+
+/* Hide Ads */
+.eastWidget, .newEastWidget, .newWestWidget,
+.newNorthWidget, .mainMenuAdUnit, #hostpageBannerAds {
+  display: none !important;
+}
+
+/* ───────────────────────────────────────────────────────────────────────────── */
+
+/* Jak's Customizations */
+.lblName, .lblUsername {
+  color: #fff;
+}
+
+.rankPanelWpm {
+  color: #fff;
+}
+
+.arrowPopup {
+  display: none;
+}
+
+.arrowPopup {
+  display: none;
+}

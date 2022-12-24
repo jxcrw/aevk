@@ -1,0 +1,18 @@
+/* Make the loading screen dark */
+#loading {
+  background: #252525!important;
+}
+.msgb {
+  color: #ccc!important;
+}
+#bhlf > input.submit_as_link {
+  color: #00adee!important;
+}
+.z0>.L3 {
+    box-shadow: none!important;
+    background-color: #555!important;
+    color: #ccc!important;
+}
+.z0>.L3:hover {
+    background-color: #777!important;
+}

@@ -1,0 +1,204 @@
+/* Account info & settings */
+.gb_ga, .gb_Mb, .gb_Kb, .gb_aa, .gb_Hb, .gb_3b {
+    background: #252525;
+    color: #e8e8e8!important;
+}
+.gb_ra, .gb_0b {
+  color: #ccc!important;
+}
+.gb_qa {
+  box-shadow: none!important;
+}
+.gb_Ea {
+    background: #333;
+    border-color: #333;
+  cursor: pointer!important;
+}
+.gb_Jb .gb_Ib:hover {
+  border-color: transparent!important;
+}
+.gb_Eb .gb_Db:hover, .gb_T:hover a, .gb_T:hover .gb_X {
+    background: #444!important;
+    border-color: #444!important;
+  cursor: pointer!important;
+}
+#gb .gb_xb a.gb_Db.gb_Db {
+  color: #fff!important;
+}
+.gb_Xb, .gb_Zb, .gb_2b, .gb_3b {
+    color: #e8e8e8!important;
+}
+#gb a.gb_ja, #gb a.gb_ja:visited, #gb a.gb_ja:active, #gb a.gb_ka, #gb a.gb_ka:visited, #gb a.gb_ea {
+    color: #8e8e8e!important;
+}
+.gb_yb, .gb_ia, .gb_Pb, .gb_Jb {
+    background: #252525!important;
+}
+.gb_Nb:hover, .gb_Rb:hover, .gb_Sb:hover, .gb_Pb:hover {
+    background: #333!important;
+}
+.gb_Fb {
+    background: transparent!important;
+}
+.gb_jb, .gb_ub {
+    border-bottom-color: #252525!important;
+}
+.gb_rb {
+    border-bottom-color: #252525!important;
+}
+.gb_sb {
+    border-bottom-color: #00000026;
+}
+.gb_kb, .gb_vb, .gb_sb {
+    border-bottom-color: #252525!important;
+}
+#gbwa > div.gb_Oc > div.gb_rb, #gbwa > div.gb_Pc > div.gb_sb {
+  border-bottom-color: #1b1b1b!important;
+}
+.gb_wb, .gb_tb {
+    border-bottom-color: #333!important;
+}
+.gb_ja {
+    background: #252525!important;
+}
+#gbsfw.gb_Sc {
+  border-color: #252525!important;
+}
+.gb_ka, .gb_da, #gb a.gb_ea {
+    background: #1b1b1b!important;
+}
+.gb_Z:hover .gb_3, .gb_Ob:hover {
+    background: #333!important;
+}
+.gb_Z:hover a {
+    border: 1px solid #333!important;
+}
+.gb_3 {
+    color: #42a5f5!important;
+}
+#gb#gb a.gb_O, #gb#gb a.gb_P, #gb#gb span.gb_P {
+    color: #42a5f5;
+}
+.gb_la {
+    border-bottom: 1px solid #3a3a3a!important;
+}
+.gb_4b.gb_b, .gb_4b.gb_Fc.gb_Ec, #gbwa > div.gb_Oc > a, .gb_ec.gb_b, .gb_ec.gb_Rc.gb_Qc, .gb_8 .gb_b, .gb_Rc.gb_Sc {
+    filter: invert(1)!important;
+}
+.gb_Ta svg, .gb_mc svg {
+  color: #fff!important;
+}
+#gbwa > div > a > svg > path {
+  color: #000!important;
+}
+.gb_Pc {
+    background-color: transparent!important;
+}
+.gb_ga, #gbsfw.gb_Tc, #gbsfw.gb_Uc {
+    border-color: #333!important;
+}
+.gb_lb {
+    border-bottom-color: #333!important;
+}
+.gb_ka, .gb_Nb {
+    border-color: #333!important;
+}
+.gb_ka {
+    background: #333!important;
+}
+.gb_kb, .gb_vb {
+    border-bottom-color: #dadada!important;
+}
+.gb_wb {
+    border-bottom-color: #b7b7b7!important;
+}
+.ajgU6 {
+    fill: #ccc!important;
+}
+.gb_Fa, #gb a.gb_Fa.gb_Fa, .gb_Ha, .gb_Kb .gb_Jb, .gb_za, #gb a.gb_za.gb_za {
+    background-image: -moz-linear-gradient(top,#3a3a3a,#313131)!important; /* FF3.6+ */
+  background-image: -webkit-linear-gradient(top,#3a3a3a,#313131)!important; /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top,#3a3a3a,#313131)!important; /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top,#3a3a3a,#313131)!important; /* IE10+ */
+  background-image: linear-gradient(top,#3a3a3a,#313131)!important; /* W3C */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+    border: none!important;
+    color: #8a8a8a!important;
+    cursor: pointer!important;
+}
+.gb_Fa:hover, #gb a.gb_Fa.gb_Fa:hover, .gb_Ha:hover, .gb_Jb .gb_Ib:hover, .gb_Kb .gb_Jb:hover, .gb_za, #gb a.gb_za.gb_za:hover {
+    background-image: -moz-linear-gradient(top,#313131,#3a3a3a)!important; /* FF3.6+ */
+  background-image: -webkit-linear-gradient(top,#313131,#3a3a3a)!important; /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top,#313131,#3a3a3a)!important; /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top,#313131,#3a3a3a)!important; /* IE10+ */
+  background-image: linear-gradient(top,#313131,#3a3a3a)!important; /* W3C */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#3a3a3a',GradientType=0 )!important; IE6-9 */
+    cursor: pointer!important;
+}
+#gb .gb_Cb a.gb_Jb.gb_Jb, #gb .gb_yb a.gb_Eb.gb_Eb {
+    background-image: -moz-linear-gradient(top,#4d90fe,#3069c7)!important; /* FF3.6+ */
+  background-image: -webkit-linear-gradient(top,#4d90fe,#3069c7)!important; /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top,#4d90fe,#3069c7)!important; /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top,#4d90fe,#3069c7)!important; /* IE10+ */
+  background-image: linear-gradient(top,#4d90fe,#3069c7)!important; /* W3C */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+    border: none!important;
+    color: #fff!important;
+    cursor: pointer!important;
+  text-shadow: 1px 1px 0px #000!important;
+}
+#gb .gb_Cb a.gb_Jb.gb_Jb:hover, #gb .gb_yb a.gb_Eb.gb_Eb:hover {
+    background-image: -moz-linear-gradient(top,#3069c7, #4d90fe)!important; /* FF3.6+ */
+  background-image: -webkit-linear-gradient(top,#3069c7,#4d90fe)!important; /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(top,#3069c7,#4d90fe)!important; /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(top,#3069c7,#4d90fe)!important; /* IE10+ */
+  background-image: linear-gradient(top,#3069c7,#4d90fe)!important; /* W3C */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#1b1b1b',GradientType=0 ); IE6-9 */
+    cursor: pointer!important;
+}
+/* Notifications */
+.gV6pJf {
+    background: #252525!important;
+}
+.gMG7Fd, .wh73ab, .Vz68Kb {
+    color: rgba(189, 189, 189, 0.87)!important;
+}
+.iWO9fc .mUbCce svg, .XSVuue {
+    fill: rgba(255, 255, 255, 0.54)!important;
+}
+.fEjTrb {
+    background-color: #1b1b1b!important;
+}
+/* Drive fix */
+#gbwa > div > a > svg {
+  color: #fff!important;
+}
+.gb_X {
+  color: #ccc!important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8e8e8e!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #8e8e8e!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #8e8e8e!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #8e8e8e!important;
+}
+/* Scholar fix */
+.gs_hdr_act_am:link {
+  background-color: #252525!important;
+}
+.gs_hdr_act_am:link:hover {
+  background-color: #333!important;
+}
+/* Photos fix */
+.gb_2b {
+  background-color: #252525!important;
+}
+.gb_Sa svg {
+    color: #9a9a9a!important;
+}

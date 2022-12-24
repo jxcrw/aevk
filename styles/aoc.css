@@ -1,0 +1,291 @@
+/* ==UserStyle==
+@name           Advent of Code Monoqai
+@namespace      namespace
+@author         Jak Crow
+@description    `Description`
+@version        0.0.1
+@license        MIT
+@preprocessor   uso
+==/UserStyle== */
+
+@-moz-document url-prefix("https://adventofcode.com/") {
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhGq3-OXg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhPq3-OXg.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhHq3-OXg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhIq3-OXg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhEq3-OXg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhFq3-OXg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v5/QGYsz_wNahGAdqQ43Rh_cqDpp_k.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v5/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+}
+
+@-moz-document url-prefix("https://adventofcode.com/") {
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #191122 transparent;
+}
+
+body {
+    /* besh: #e3e3a6 */
+    background-color: #272822;
+    color: #f1f1e4;
+
+
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 18px;
+    line-height: 25px;
+    overflow-x: hidden;
+
+}
+
+article em, article code em {
+    color: #fa7aa9;
+    text-shadow: 0 0 2px #000000, 0 0 5px #fa7aa9bd;
+}
+
+article, header div, main {
+    width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article h2,
+h2 {
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #ae81ff;
+    text-shadow: 0 0 2px #000000, 0 0 5px #ae81ffbd;
+    margin-bottom: 2rem;
+}
+
+code {
+    margin: 0 .2rem;
+}
+
+header,
+.leaderboard-entry,
+code,
+pre, code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.calendar > span,
+.calendar .calendar-day,
+.privboard-star-unlocked,
+.privboard-days > span{
+    color: #888881;
+}
+
+.calendar > a {
+    color: #75715e;
+}
+
+.calendar > a:hover {
+    background: #49483e69;
+}
+
+
+
+
+header h1 a, header h1 span {
+    color: #a6e22e;
+    text-shadow: 0 0 2px #3c3232, 0 0 5px #a6e22ed1;
+}
+
+header h1 a:hover, header h1 span:hover {
+    color: #caee81;
+    text-shadow: 0 0 2px #3c3232, 0 0 5px #caee81d1;
+}
+
+pre {
+    width: 100%;
+}
+
+pre code {
+    width: calc(100% - 1.2rem);
+    padding: .6rem;
+}
+
+.hidden {
+    border: none;
+}
+
+.hidden::before {
+    border: none;
+    background-color: #000000df;
+}
+
+input[type="text"], textarea,
+code::before {
+    top: -1px;
+    bottom: -1px;
+    left: -5px;
+    right: -5px;
+    border-radius: .3rem;
+    border: 1px solid #4b4d42;
+    background-color: #2e2f29;
+}
+
+a, .share {
+    color: #a6e22e;
+}
+
+input[type="submit"] {
+  color: #a6e22e;
+}
+
+a:hover, span:hover {
+    color: #caee81;
+}
+
+.supporter-badge {
+    color: #ffb217;
+    text-shadow: 0 0 2px #000000, 0 0 5px #ffb21763;
+}
+
+.sponsor-badge {
+    color: #81aaff;
+    text-shadow: 0 0 2px #000000, 0 0 5px #81aaff63;
+}
+
+.stats > a:hover, .stats > a:focus,
+input[type="checkbox"] ~ span:hover, input[type="checkbox"] ~ span:focus,
+input[type="radio"] ~ span:hover, input[type="radio"] ~ span:focus {
+    background: #49483e69;
+}
+
+#sidebar {
+    display: none;
+}
+
+.stats > span, .stats > span .stats-firstonly, .stats > span .stats-both {
+    text-shadow: none
+}
+
+.privboard-star-firstonly,
+.stats-firstonly {
+    color: #bfbdb0;
+    text-shadow: 0 0 2px #000000, 0 0 5px #888881a3;
+}
+
+.stats-both,
+.leaderboard-daydesc-both,
+article em.star,
+.day-success,
+.calendar a.calendar-verycomplete .calendar-mark-verycomplete,
+.calendar a.calendar-complete .calendar-mark-complete, .calendar a.calendar-verycomplete .calendar-mark-complete,
+header .user .star-count,
+.privboard-star-both {
+    color: #ffb217;
+    text-shadow: 0 0 2px #000000, 0 0 5px #ffb217e6;
+}
+
+.leaderboard-daydesc-first {
+    color: #bfbdb0;
+    text-shadow: 0 0 2px #000000, 0 0 5px #bfbdb0e6;
+}
+
+    .star-count {
+        color: #ffb217;
+    }
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #49483e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #49483e69;
+}
+
+article.day-desc li {
+    margin-bottom: .3rem;
+}
+
+}

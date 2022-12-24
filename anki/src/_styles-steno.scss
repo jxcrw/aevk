@@ -1,0 +1,78 @@
+@import url("_main.css");
+.card {
+  font-family: times;
+  font-size: 18px;
+  text-align: center;
+  color: #f8f8f2;
+  background-color: #272822;
+  box-shadow: none;
+  line-height: 1.15;
+}
+
+.container {
+  width: 85%;
+}
+
+.center, .center-align {
+  text-align: center; }
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}﻿
+
+hr#answer {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  border: none;
+}
+
+#typeans {
+  color: #f8f8f2;
+  background-color: #272822;
+  font-size: 16px !important;
+  width: 97%;
+  font-family: times !important;
+}
+
+code#typeans {
+  font-family: "Consolas";
+  font-size: 12px !important;
+}
+
+.typeGood {
+  font-family: "Consolas";
+  background: #aeea00;
+  color: #000000;
+  font-size: 12px !important;
+}
+
+.typeBad {
+  font-family: "Consolas";
+  background: #f94989;
+  color: #000000;
+  font-size: 12px !important;
+}
+
+.typeMissed {
+  font-family: "Consolas";
+  background: #e0e0e0;
+  color: #000000;
+  font-size: 12px !important;
+}
+
+// Show outlines on hover
+.hidden-outlines-toggle {
+  width: 100%;
+}
+
+.outlines {
+  display: none;
+}
+
+.hidden-outlines-toggle:hover + .outlines {
+  display: block;
+}
