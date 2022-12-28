@@ -12,7 +12,7 @@
 
 * {
     /* background colors */
-    --color-canvas-default: #1A1B26;
+    --color-canvas-default: #1A1B26 !important;
     --color-canvas-inset: #16161E;
     --color-page-header-bg: #16161e;
     --color-header-bg: #16161e;
