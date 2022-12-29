@@ -75,6 +75,23 @@
 /*     font-family: "consolas", mono; */
 }
 
+/*     contribution graph */
+.ContributionCalendar-day[data-level="0"] {
+    fill: #292e42;
+}
+.ContributionCalendar-day[data-level="1"] {
+    fill: #035346;
+}
+.ContributionCalendar-day[data-level="2"] {
+    fill: #0d7464;
+}
+.ContributionCalendar-day[data-level="3"] {
+    fill: #40A797;
+}
+.ContributionCalendar-day[data-level="4"] {
+    fill: #73daca;
+}
+
 
 
 /*
